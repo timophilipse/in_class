@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-03-30T10:22:36.632038+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-03-30T13:58:22.334871+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">50</div>
+        <div class="metric">4</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -153,6 +153,12 @@
     <div class="panel latest-section">
       <h2>Latest day details (2026-03-30)</h2>
 <div class='sentiment-group'>
+<h3>Bearish (1)</h3>
+<ul>
+<li><a href='https://www.bloomberg.com/news/articles/2026-03-30/apple-fined-390-000-by-uk-over-russian-sanction-breaches' target='_blank' rel='noopener noreferrer'>Apple Fined £390,000 by UK Over Russian Sanction Breaches</a> <span class='meta'>— Bloomberg.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
 <h3>Bullish (2)</h3>
 <ul>
 <li><a href='https://www.storyboard18.com/digital/no-successful-hacks-on-apple-lockdown-mode-devices-company-claims-93651.htm' target='_blank' rel='noopener noreferrer'>No successful hacks on Apple Lockdown Mode devices, company claims</a> <span class='meta'>— Storyboard18</span></li>
@@ -160,11 +166,18 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (3)</h3>
+<h3>Neutral (4)</h3>
 <ul>
 <li><a href='https://www.storyboard18.com/brand-makers/apple-co-founder-steve-wozniak-criticises-ai-says-systems-lack-true-understanding-93642.htm' target='_blank' rel='noopener noreferrer'>Apple co-founder Steve Wozniak criticises AI, says systems lack true understanding</a> <span class='meta'>— Storyboard18</span></li>
 <li><a href='https://www.tradingview.com/symbols/BSESOF-ABEC/ideas/page-19/' target='_blank' rel='noopener noreferrer'>Alphabet Inc. Class C Trade Ideas — BSESOF:ABEC</a> <span class='meta'>— TradingView</span></li>
 <li><a href='https://www.benzinga.com/markets/tech/26/03/51530836/ross-gerber-slams-teslas-fsd-for-being-level-2-gary-black-lacks-marketing' target='_blank' rel='noopener noreferrer'>Ross Gerber Slams Tesla&#39;s FSD For Being &#39;Level 2&#39; As Gary Black Decries Marketing Strategy: &#39;You Still Basically Have...&#39;</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-qualcomm-stock-coverage-with-neutral-rating-93CH-4587096' target='_blank' rel='noopener noreferrer'>Goldman Sachs initiates Qualcomm stock coverage with neutral rating</a> <span class='meta'>— Investing.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bearish (1)</h3>
+<ul>
+<li><a href='https://www.politico.eu/article/apple-subsidiary-fined-390k-for-russian-sanctions-breaches/' target='_blank' rel='noopener noreferrer'>Apple subsidiary fined £390K for Russian sanctions breaches</a> <span class='meta'>— www.politico.eu</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -185,9 +198,9 @@
 
   <script>
     const labels = ["2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-28", "2026-03-29", "2026-03-30"];
-    const articleCounts = [34, 29, 40, 24, 16, 25, 9];
-    const avgScores = [0.1927, 0.1508, 0.1019, 0.1605, 0.1385, 0.1635, 0.1885];
-    const labelCounts = {"Bullish": [5, 4, 4, 2, 2, 1, 2], "Neutral": [12, 13, 14, 12, 7, 7, 3], "Somewhat-Bearish": [1, 2, 8, 1, 1, 1, 0], "Somewhat-Bullish": [16, 10, 14, 9, 6, 16, 4]};
+    const articleCounts = [34, 29, 40, 24, 17, 25, 12];
+    const avgScores = [0.1927, 0.1508, 0.1019, 0.1605, 0.1067, 0.1635, 0.0754];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 1, 0, 1], "Bullish": [5, 4, 4, 2, 2, 1, 2], "Neutral": [12, 13, 14, 12, 7, 7, 4], "Somewhat-Bearish": [1, 2, 8, 1, 1, 1, 1], "Somewhat-Bullish": [16, 10, 14, 9, 6, 16, 4]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
