@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-04-03T09:57:35.087716+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-04-03T13:25:09.426007+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">9</div>
+        <div class="metric">4</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -153,6 +153,12 @@
     <div class="panel latest-section">
       <h2>Latest day details (2026-04-03)</h2>
 <div class='sentiment-group'>
+<h3>Bullish (1)</h3>
+<ul>
+<li><a href='https://www.investing.com/news/stock-market-news/these-10-stocks-are-poised-for-earnings-surprises-in-april-morgan-stanley-4596888' target='_blank' rel='noopener noreferrer'>These 10 stocks are poised for earnings surprises in April: Morgan Stanley</a> <span class='meta'>— Investing.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
 <h3>Neutral (1)</h3>
 <ul>
 <li><a href='https://www.marketbeat.com/instant-alerts/filing-sg-americas-securities-llc-buys-48102-shares-of-skyworks-solutions-inc-swks-2026-04-03/' target='_blank' rel='noopener noreferrer'>SG Americas Securities LLC Buys 48,102 Shares of Skyworks Solutions, Inc. $SWKS</a> <span class='meta'>— MarketBeat</span></li>
@@ -165,6 +171,12 @@
 <li><a href='https://www.marketbeat.com/instant-alerts/rep-mark-alford-sells-amazoncom-inc-nasdaqamzn-shares-2026-04-03/' target='_blank' rel='noopener noreferrer'>Rep. Mark Alford Sells Amazon.com, Inc. (NASDAQ:AMZN) Shares</a> <span class='meta'>— MarketBeat</span></li>
 </ul>
 </div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (1)</h3>
+<ul>
+<li><a href='https://siliconangle.com/2026/04/02/alcatraz-raises-50m-bring-apple-face-id-style-security-physical-buildings/' target='_blank' rel='noopener noreferrer'>Alcatraz raises $50M to bring Apple Face ID-style security to physical buildings</a> <span class='meta'>— SiliconANGLE</span></li>
+</ul>
+</div>
     </div>
 
     <p class="footer-note">
@@ -174,9 +186,9 @@
 
   <script>
     const labels = ["2026-03-28", "2026-03-29", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03"];
-    const articleCounts = [17, 28, 31, 41, 39, 23, 3];
-    const avgScores = [0.1067, 0.1556, 0.1073, 0.1539, 0.1714, 0.2081, -0.1324];
-    const labelCounts = {"Bearish": [1, 0, 1, 2, 1, 0, 0], "Bullish": [2, 1, 3, 5, 9, 3, 0], "Neutral": [7, 9, 11, 14, 12, 6, 1], "Somewhat-Bearish": [1, 1, 4, 1, 3, 1, 2], "Somewhat-Bullish": [6, 17, 12, 19, 14, 13, 0]};
+    const articleCounts = [17, 28, 31, 41, 40, 24, 5];
+    const avgScores = [0.1067, 0.1556, 0.1073, 0.1539, 0.1656, 0.2119, 0.0286];
+    const labelCounts = {"Bearish": [1, 0, 1, 2, 1, 0, 0], "Bullish": [2, 1, 3, 5, 9, 3, 1], "Neutral": [7, 9, 11, 14, 13, 6, 1], "Somewhat-Bearish": [1, 1, 4, 1, 3, 1, 2], "Somewhat-Bullish": [6, 17, 12, 19, 14, 14, 1]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
