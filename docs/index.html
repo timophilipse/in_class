@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-05-22T15:16:26.988211+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-05-22T16:34:21.979985+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">4</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -159,7 +159,13 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (12)</h3>
+<h3>Neutral (1)</h3>
+<ul>
+<li><a href='https://www.investing.com/news/company-news/apple-stock-hits-alltime-high-reaching-31118-usd-93CH-4707069' target='_blank' rel='noopener noreferrer'>Apple stock hits all-time high, reaching 311.18 USD</a> <span class='meta'>— Investing.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (13)</h3>
 <ul>
 <li><a href='https://cryptobriefing.com/amkor-amd-chip-packaging-arizona/' target='_blank' rel='noopener noreferrer'>Amkor Technology partners with AMD on chip packaging, targets $9.5B revenue by 2028</a> <span class='meta'>— Crypto Briefing</span></li>
 <li><a href='https://www.tradingview.com/symbols/BVL-NKEUS/ideas/page-13/' target='_blank' rel='noopener noreferrer'>NIKE, Inc. Class B Trade Ideas — BVL:NKEUS</a> <span class='meta'>— TradingView</span></li>
@@ -180,9 +186,9 @@
 
   <script>
     const labels = ["2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22"];
-    const articleCounts = [8, 22, 46, 40, 36, 41, 13];
-    const avgScores = [0.239, 0.2242, 0.1928, 0.1214, 0.1852, 0.1903, 0.2679];
-    const labelCounts = {"Bullish": [3, 6, 10, 5, 5, 6, 1], "Neutral": [3, 3, 10, 17, 12, 15, 0], "Somewhat-Bearish": [0, 1, 6, 5, 2, 3, 0], "Somewhat-Bullish": [2, 12, 20, 13, 17, 17, 12]};
+    const articleCounts = [8, 22, 46, 40, 36, 41, 15];
+    const avgScores = [0.239, 0.2242, 0.1928, 0.1214, 0.1852, 0.1903, 0.2531];
+    const labelCounts = {"Bullish": [3, 6, 10, 5, 5, 6, 1], "Neutral": [3, 3, 10, 17, 12, 15, 1], "Somewhat-Bearish": [0, 1, 6, 5, 2, 3, 0], "Somewhat-Bullish": [2, 12, 20, 13, 17, 17, 13]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
