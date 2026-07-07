@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-07-07T15:08:39.592268+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-07-07T16:39:25.671430+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">2</div>
+        <div class="metric">5</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -165,18 +165,28 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Neutral (4)</h3>
 <ul>
 <li><a href='https://ts2.tech/en/sp-500-gains-narrow-after-hours-as-rivian-nasdaqrivn-drops-fiserv-nasdaqfisv-rises/' target='_blank' rel='noopener noreferrer'>S&amp;P 500 gains narrow after hours as Rivian (NASDAQ:RIVN) drops, Fiserv (NASDAQ:FISV) rises</a> <span class='meta'>— TechStock²</span></li>
 <li><a href='https://ca.investing.com/news/stock-market-news/form-4-graham-holdings-co-for-6-july-93CH-4721734' target='_blank' rel='noopener noreferrer'>Form 4 Graham Holdings Co For: 6 July By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
+<li><a href='https://ts2.tech/en/dow-slides-as-caterpillar-and-honeywell-weigh-on-blue-chips/' target='_blank' rel='noopener noreferrer'>Dow slides as Caterpillar and Honeywell weigh on blue chips</a> <span class='meta'>— TechStock²</span></li>
+<li><a href='https://au.pcmag.com/news/118650/think-you-know-apple-predict-the-companys-future-to-win-in-pcmags-big-guessing-game' target='_blank' rel='noopener noreferrer'>Think You Know Apple? Predict the Company&#39;s Future to Win in PCMag’s Big Guessing Game</a> <span class='meta'>— PCMag Australia</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (3)</h3>
+<h3>Somewhat-Bearish (1)</h3>
+<ul>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/intel-applied-materials-dive-10-142759197.html' target='_blank' rel='noopener noreferrer'>Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff</a> <span class='meta'>— Yahoo Finance</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (5)</h3>
 <ul>
 <li><a href='https://ca.investing.com/news/stock-market-news/form-13da-oklo-inc-for-6-july-93CH-4722046' target='_blank' rel='noopener noreferrer'>Form 13D/A Oklo Inc. For: 6 July By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
 <li><a href='https://247wallst.com/investing/2026/07/06/the-monthly-income-trap-why-qqqis-high-yield-requires-giving-up-6-5-in-upside/' target='_blank' rel='noopener noreferrer'>The Monthly Income Trap: Why QQQI’s High Yield Requires Giving Up 6.5% In Upside</a> <span class='meta'>— 24/7 Wall St.</span></li>
 <li><a href='https://www.marketscreener.com/news/apple-inc-receives-a-buy-rating-from-jp-morgan-ce7f5ed8d98ff123' target='_blank' rel='noopener noreferrer'>APPLE INC : Receives a Buy rating from JP Morgan</a> <span class='meta'>— marketscreener.com</span></li>
+<li><a href='https://www.benzinga.com/trading-ideas/long-ideas/26/07/60300568/apple-meta-alphabet-and-a-financial-stock-on-cnbc-final-trades' target='_blank' rel='noopener noreferrer'>Apple, Meta, Alphabet And A Financial Stock On CNBC’s ‘Final Trades’</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://www.citybiz.co/article/870509/the-glimpse-group-sells-legacy-unit-to-accelerate-physical-ai-strategy/' target='_blank' rel='noopener noreferrer'>The Glimpse Group Sells Legacy Unit to Accelerate Physical AI Strategy</a> <span class='meta'>— citybiz</span></li>
 </ul>
 </div>
     </div>
@@ -188,9 +198,9 @@
 
   <script>
     const labels = ["2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07"];
-    const articleCounts = [61, 71, 17, 18, 18, 48, 7];
-    const avgScores = [0.1263, -0.0097, 0.0747, 0.1625, 0.1923, 0.2596, 0.1407];
-    const labelCounts = {"Bearish": [1, 3, 1, 0, 0, 0, 1], "Bullish": [4, 2, 1, 0, 1, 11, 1], "Neutral": [32, 38, 7, 9, 7, 8, 2], "Somewhat-Bearish": [2, 14, 2, 0, 0, 0, 0], "Somewhat-Bullish": [22, 14, 6, 9, 10, 29, 3]};
+    const articleCounts = [61, 71, 17, 18, 18, 48, 12];
+    const avgScores = [0.1263, -0.0097, 0.0747, 0.1625, 0.1923, 0.2596, 0.1068];
+    const labelCounts = {"Bearish": [1, 3, 1, 0, 0, 0, 1], "Bullish": [4, 2, 1, 0, 1, 11, 1], "Neutral": [32, 38, 7, 9, 7, 8, 4], "Somewhat-Bearish": [2, 14, 2, 0, 0, 0, 1], "Somewhat-Bullish": [22, 14, 6, 9, 10, 29, 5]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
