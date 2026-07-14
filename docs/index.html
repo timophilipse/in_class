@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-07-14T14:06:34.149980+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-07-14T15:39:03.777580+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">13</div>
+        <div class="metric">4</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -159,14 +159,15 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Bullish (2)</h3>
+<h3>Bullish (3)</h3>
 <ul>
 <li><a href='https://www.investing.com/news/stock-market-news/buy-apple-stock-ahead-of-expected-200-iphone-price-hikes-morgan-stanley-4790240' target='_blank' rel='noopener noreferrer'>Buy Apple stock ahead of expected $200 iPhone price hikes: Morgan Stanley</a> <span class='meta'>— Investing.com</span></li>
 <li><a href='https://www.benzinga.com/markets/earnings/26/07/60440163/david-solomon-says-clients-are-bringing-their-most-critical-deals-to-goldman-sachs' target='_blank' rel='noopener noreferrer'>David Solomon Says Clients Are Bringing Their Most Critical Deals to Goldman Sachs</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://www.bgr.com/2211954/siri-ai-features-change-how-you-use-iphone-ipad-mac/' target='_blank' rel='noopener noreferrer'>5 Siri AI Features That Will Change How You Use Your iPhone, iPad, &amp; Mac</a> <span class='meta'>— BGR</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (6)</h3>
+<h3>Neutral (9)</h3>
 <ul>
 <li><a href='https://stockinvest.us/stock-news/advanced-micro-devices-stock-price-down-421-on-monday-2026-07-13' target='_blank' rel='noopener noreferrer'>Advanced Micro Devices stock price down 4.21% on Monday</a> <span class='meta'>— StockInvest.us</span></li>
 <li><a href='https://www.tradingview.com/symbols/CBOE-AAPW/profile/' target='_blank' rel='noopener noreferrer'>AAPW ETF Profile: Dividends, Returns (CBOE:AAPW)</a> <span class='meta'>— TradingView</span></li>
@@ -174,6 +175,8 @@
 <li><a href='https://www.tradingview.com/symbols/FWB-USMC/profile/' target='_blank' rel='noopener noreferrer'>USMC ETF Profile: Dividends, Returns (FWB:USMC)</a> <span class='meta'>— TradingView</span></li>
 <li><a href='https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60435944/apple-defies-smartphone-slump-with-record-market-share' target='_blank' rel='noopener noreferrer'>Apple Defies Smartphone Slump With Record Market Share</a> <span class='meta'>— Benzinga</span></li>
 <li><a href='https://ca.investing.com/news/stock-market-news/stifel-reiterates-buy-rating-on-host-hotels-stock-at-2625-93CH-4733147' target='_blank' rel='noopener noreferrer'>Stifel reiterates Buy rating on Host Hotels stock at $26.25 By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
+<li><a href='https://www.investing.com/news/company-news/mt-bank-corp-stock-hits-alltime-high-at-24496-usd-93CH-4791090' target='_blank' rel='noopener noreferrer'>M&amp;T Bank Corp stock hits all-time high at 244.96 USD</a> <span class='meta'>— Investing.com</span></li>
+<li><a href='https://www.inc.com/fast-company-2/apple-users-beware-copy-paste-scam-control-mac-computer/91373555' target='_blank' rel='noopener noreferrer'>Apple Users Beware: This ‘Copy-Paste’ Scam Could Allow Someone to Take Control of Your Mac</a> <span class='meta'>— Inc.com</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -202,9 +205,9 @@
 
   <script>
     const labels = ["2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14"];
-    const articleCounts = [65, 38, 26, 22, 14, 64, 16];
-    const avgScores = [0.1472, 0.2037, 0.0415, 0.0716, 0.1094, 0.1471, 0.1496];
-    const labelCounts = {"Bearish": [3, 1, 1, 2, 1, 1, 1], "Bullish": [10, 6, 1, 2, 0, 17, 2], "Neutral": [28, 14, 12, 7, 6, 22, 6], "Somewhat-Bearish": [3, 0, 4, 3, 0, 7, 1], "Somewhat-Bullish": [21, 17, 8, 8, 7, 17, 6]};
+    const articleCounts = [65, 38, 26, 22, 14, 64, 20];
+    const avgScores = [0.1472, 0.2037, 0.0415, 0.0716, 0.1094, 0.1471, 0.1298];
+    const labelCounts = {"Bearish": [3, 1, 1, 2, 1, 1, 1], "Bullish": [10, 6, 1, 2, 0, 17, 3], "Neutral": [28, 14, 12, 7, 6, 22, 9], "Somewhat-Bearish": [3, 0, 4, 3, 0, 7, 1], "Somewhat-Bullish": [21, 17, 8, 8, 7, 17, 6]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
