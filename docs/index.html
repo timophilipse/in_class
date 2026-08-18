@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-08-18T09:38:47.811398+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-08-18T13:02:13.980503+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">9</div>
+        <div class="metric">5</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -165,9 +165,18 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (1)</h3>
+<h3>Neutral (2)</h3>
+<ul>
+<li><a href='https://www.benzinga.com/news/26/08/61266555/assessing-apple-s-performance-against-competitors-technology-hardware-storage-amp-peripherals-indust' target='_blank' rel='noopener noreferrer'>Assessing Apple&#39;s Performance Against Competitors In Technology Hardware, Storage &amp; Peripherals Indus</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://ca.investing.com/news/stock-market-news/ubs-cuts-corteva-stock-price-target-to-85-on-2027-growth-outlook-93CH-4805821' target='_blank' rel='noopener noreferrer'>UBS cuts Corteva stock price target to $85 on 2027 growth outlook</a> <span class='meta'>— Investing.com Canada</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (3)</h3>
 <ul>
 <li><a href='https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-is-adelphi-trust-cos-2nd-largest-position-2026-08-18/' target='_blank' rel='noopener noreferrer'>Apple Inc. $AAPL is Adelphi Trust Co&#39;s 2nd Largest Position</a> <span class='meta'>— MarketBeat</span></li>
+<li><a href='https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-shares-acquired-by-bsn-capital-partners-ltd-2026-08-18/' target='_blank' rel='noopener noreferrer'>Apple Inc. $AAPL Shares Acquired by BSN CAPITAL PARTNERS Ltd</a> <span class='meta'>— MarketBeat</span></li>
+<li><a href='https://www.marketbeat.com/instant-alerts/filing-pzena-investment-management-llc-buys-shares-of-15973040-skyworks-solutions-inc-swks-2026-08-18/' target='_blank' rel='noopener noreferrer'>Pzena Investment Management LLC Buys Shares of 15,973,040 Skyworks Solutions, Inc. $SWKS</a> <span class='meta'>— MarketBeat</span></li>
 </ul>
 </div>
     </div>
@@ -179,9 +188,9 @@
 
   <script>
     const labels = ["2026-08-12", "2026-08-13", "2026-08-14", "2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18"];
-    const articleCounts = [49, 36, 27, 18, 18, 38, 3];
-    const avgScores = [0.0962, 0.116, 0.1484, 0.1542, 0.0307, 0.1383, 0.1426];
-    const labelCounts = {"Bearish": [0, 0, 0, 0, 2, 2, 1], "Bullish": [4, 5, 1, 0, 1, 4, 1], "Neutral": [27, 17, 13, 7, 6, 11, 0], "Somewhat-Bearish": [3, 5, 0, 0, 2, 3, 0], "Somewhat-Bullish": [15, 9, 13, 11, 7, 18, 1]};
+    const articleCounts = [49, 36, 27, 18, 18, 39, 7];
+    const avgScores = [0.0962, 0.116, 0.1484, 0.1542, 0.0307, 0.1405, 0.1495];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 2, 2, 1], "Bullish": [4, 5, 1, 0, 1, 4, 1], "Neutral": [27, 17, 13, 7, 6, 11, 2], "Somewhat-Bearish": [3, 5, 0, 0, 2, 3, 0], "Somewhat-Bullish": [15, 9, 13, 11, 7, 19, 3]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
