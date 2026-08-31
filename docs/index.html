@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-08-31T16:56:59.914742+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-08-31T19:06:29.268615+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">3</div>
+        <div class="metric">5</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -151,19 +151,12 @@
     </div>
 
     <div class="panel latest-section">
-      <h2>Latest day details (2026-08-28)</h2>
+      <h2>Latest day details (2026-08-31)</h2>
 <div class='sentiment-group'>
-<h3>Bullish (3)</h3>
+<h3>Neutral (2)</h3>
 <ul>
-<li><a href='https://www.mactech.com/2026/08/27/assurant-mobile-trade-in-programs-return-1-43-billion-to-consumers-in-the-second-quarter/' target='_blank' rel='noopener noreferrer'>Assurant: Mobile Trade-In Programs Return $1.43 Billion to Consumers in the second quarter</a> <span class='meta'>— MacTech.com</span></li>
-<li><a href='https://www.businesswire.com/news/home/20260827717191/en/Assurant-Reports-Mobile-Trade-In-Programs-Return-%241.43-Billion-to-Consumers-in-Q2-2026-as-Smartphones-Reach-Four-Year-Upgrade-Milestone' target='_blank' rel='noopener noreferrer'>Assurant Reports Mobile Trade-In Programs Return $1.43 Billion to Consumers in Q2 2026 as Smartphones Reach Four-Year Upgrade Milestone</a> <span class='meta'>— Business Wire</span></li>
-<li><a href='https://www.kentucky.com/news/business/article317036396.html' target='_blank' rel='noopener noreferrer'>Jobs to double, output to triple at KY factory set to make all glass for iPhones</a> <span class='meta'>— Lexington Herald Leader</span></li>
-</ul>
-</div>
-<div class='sentiment-group'>
-<h3>Neutral (1)</h3>
-<ul>
-<li><a href='https://au.finance.yahoo.com/quote/METV/holdings/' target='_blank' rel='noopener noreferrer'>Roundhill Ball Metaverse ETF (METV) holdings</a> <span class='meta'>— Yahoo Finance Australia</span></li>
+<li><a href='https://www.inc.com/diana-bocco/apple-youngest-employee-harvard-dropout-startup-dub-billion-trades/91396761' target='_blank' rel='noopener noreferrer'>Apple&#39;s Youngest Employee Dropped Out of Harvard. Now His Startup Has Powered $1.6 Billion in Trades</a> <span class='meta'>— Inc.com</span></li>
+<li><a href='https://ca.finance.yahoo.com/news/today-tim-cook-last-day-165630788.html' target='_blank' rel='noopener noreferrer'>Today Is Tim Cook’s Last Day As CEO Of Apple</a> <span class='meta'>— Yahoo! Finance Canada</span></li>
 </ul>
 </div>
     </div>
@@ -174,10 +167,10 @@
   </div>
 
   <script>
-    const labels = ["2026-08-22", "2026-08-23", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28"];
-    const articleCounts = [27, 9, 35, 30, 9, 2, 4];
-    const avgScores = [0.1621, 0.188, 0.1065, 0.2507, 0.1921, 0.2293, 0.3055];
-    const labelCounts = {"Bearish": [1, 0, 1, 0, 0, 0, 0], "Bullish": [3, 2, 4, 8, 0, 0, 3], "Neutral": [12, 3, 16, 8, 3, 0, 1], "Somewhat-Bearish": [0, 1, 3, 2, 0, 0, 0], "Somewhat-Bullish": [11, 3, 11, 12, 6, 2, 0]};
+    const labels = ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-31"];
+    const articleCounts = [30, 9, 2, 5, 2, 2];
+    const avgScores = [0.2507, 0.1921, 0.2293, 0.2643, -0.2784, 0.1224];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 1, 0], "Bullish": [8, 0, 0, 3, 0, 0], "Neutral": [8, 3, 0, 2, 1, 2], "Somewhat-Bearish": [2, 0, 0, 0, 0, 0], "Somewhat-Bullish": [12, 6, 2, 0, 0, 0]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
