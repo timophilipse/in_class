@@ -113,19 +113,19 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-01T01:13:01.367127+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-01T14:03:37.405283+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
-        <div class="metric">49</div>
+        <div class="metric">37</div>
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">0</div>
+        <div class="metric">4</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
-        <div class="metric">49</div>
+        <div class="metric">37</div>
       </div>
     </div>
 
@@ -151,12 +151,18 @@
     </div>
 
     <div class="panel latest-section">
-      <h2>Latest day details (2026-08-31)</h2>
+      <h2>Latest day details (2026-09-01)</h2>
+<div class='sentiment-group'>
+<h3>Bullish (1)</h3>
+<ul>
+<li><a href='https://www.inc.com/connor-jewiss/15-years-ago-steve-jobs-bet-on-tim-cooks-competence-it-paid-off-to-the-tune-of-4-trillion/91399049' target='_blank' rel='noopener noreferrer'>15 Years Ago, Steve Jobs Bet on Tim Cook&#39;s Competence. It Paid Off to the Tune of $4 Trillion</a> <span class='meta'>— Inc.com</span></li>
+</ul>
+</div>
 <div class='sentiment-group'>
 <h3>Neutral (2)</h3>
 <ul>
-<li><a href='https://www.inc.com/diana-bocco/apple-youngest-employee-harvard-dropout-startup-dub-billion-trades/91396761' target='_blank' rel='noopener noreferrer'>Apple&#39;s Youngest Employee Dropped Out of Harvard. Now His Startup Has Powered $1.6 Billion in Trades</a> <span class='meta'>— Inc.com</span></li>
-<li><a href='https://ca.finance.yahoo.com/news/today-tim-cook-last-day-165630788.html' target='_blank' rel='noopener noreferrer'>Today Is Tim Cook’s Last Day As CEO Of Apple</a> <span class='meta'>— Yahoo! Finance Canada</span></li>
+<li><a href='https://mashable.com/tech/apple-watch-series-12-rumors-upgrades' target='_blank' rel='noopener noreferrer'>Apple Watch will reportedly get a big redesign, but not this year</a> <span class='meta'>— Mashable</span></li>
+<li><a href='https://www.fxempire.com/forecasts/article/microsoft-apple-and-oracle-face-rising-rate-pressure-1621074' target='_blank' rel='noopener noreferrer'>Microsoft, Apple and Oracle Face Rising Rate Pressure</a> <span class='meta'>— FXEmpire</span></li>
 </ul>
 </div>
     </div>
@@ -167,10 +173,10 @@
   </div>
 
   <script>
-    const labels = ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-31"];
-    const articleCounts = [30, 9, 2, 5, 3, 2];
-    const avgScores = [0.2507, 0.1921, 0.2293, 0.2643, -0.1561, 0.1224];
-    const labelCounts = {"Bearish": [0, 0, 0, 0, 1, 0], "Bullish": [8, 0, 0, 3, 0, 0], "Neutral": [8, 3, 0, 2, 2, 2], "Somewhat-Bearish": [2, 0, 0, 0, 0, 0], "Somewhat-Bullish": [12, 6, 2, 0, 0, 0]};
+    const labels = ["2026-08-26", "2026-08-27", "2026-08-28", "2026-08-29", "2026-08-31", "2026-09-01"];
+    const articleCounts = [9, 2, 5, 3, 3, 3];
+    const avgScores = [0.1921, 0.2293, 0.2643, -0.1561, 0.1832, 0.1755];
+    const labelCounts = {"Bearish": [0, 0, 0, 1, 0, 0], "Bullish": [0, 0, 3, 0, 0, 1], "Neutral": [3, 0, 2, 2, 2, 2], "Somewhat-Bullish": [6, 2, 0, 0, 1, 0]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
