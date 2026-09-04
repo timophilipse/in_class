@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-04T16:15:30.712465+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-04T17:34:08.101244+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">0</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -151,21 +151,17 @@
     </div>
 
     <div class="panel latest-section">
-      <h2>Latest day details (2026-09-03)</h2>
+      <h2>Latest day details (2026-09-04)</h2>
 <div class='sentiment-group'>
-<h3>Neutral (1)</h3>
+<h3>Bearish (1)</h3>
 <ul>
-<li><a href='https://finance.yahoo.com/markets/stocks/articles/happens-qualcomm-stock-revenue-earns-204305867.html' target='_blank' rel='noopener noreferrer'>What Happens To Qualcomm Stock If The New Revenue Earns Less?</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://news.bloomberglaw.com/ip-law/basf-units-bring-patent-suit-against-apple-over-face-id-tech' target='_blank' rel='noopener noreferrer'>BASF Units Bring Patent Suit Against Apple Over Face ID Tech</a> <span class='meta'>— Bloomberg Law News</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (5)</h3>
+<h3>Somewhat-Bullish (1)</h3>
 <ul>
-<li><a href='https://www.axios.com/local/dallas/2026/09/02/texas-instruments-sherman' target='_blank' rel='noopener noreferrer'>Inside Texas Instruments&#39; Sherman factory</a> <span class='meta'>— Axios</span></li>
-<li><a href='https://hypebeast.com/2026/9/a-rare-working-hatfield-apple-1-could-fetch-up-to-800000-usd-at-bonhams' target='_blank' rel='noopener noreferrer'>A Rare Working &quot;Hatfield&quot; Apple-1 Could Fetch Up to $800,000 USD at Bonhams</a> <span class='meta'>— Hypebeast</span></li>
-<li><a href='https://ca.investing.com/news/stock-market-news/envista-holdings-stock-rises-on-jpmorgan-upgrade-93CH-4827624' target='_blank' rel='noopener noreferrer'>Envista Holdings stock rises on JPMorgan upgrade By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
-<li><a href='https://www.marketbeat.com/instant-alerts/filing-nykredit-a-s-makes-new-8891-million-investment-in-stryker-corporation-syk-2026-09-03/' target='_blank' rel='noopener noreferrer'>Nykredit A S Makes New $88.91 Million Investment in Stryker Corporation $SYK</a> <span class='meta'>— MarketBeat</span></li>
-<li><a href='https://www.britannica.com/money/Apple-Inc/2011-2019-Tim-Cook-and-Apples-expansion' target='_blank' rel='noopener noreferrer'>Apple Inc. | History, Products, &amp; Headquarters - Tim Cook, Trillion Dollar, Tech Giant</a> <span class='meta'>— Britannica</span></li>
+<li><a href='https://eu.dispatch.com/story/news/local/2026/09/04/moreno-confident-intel-plant-despite-delays-new-albany/91608798007/' target='_blank' rel='noopener noreferrer'>Intel &#39;100% committed&#39; to getting New Albany fab completed, Moreno says</a> <span class='meta'>— The Columbus Dispatch</span></li>
 </ul>
 </div>
     </div>
@@ -176,10 +172,10 @@
   </div>
 
   <script>
-    const labels = ["2026-08-28", "2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03"];
-    const articleCounts = [8, 5, 2, 20, 26, 21, 6];
-    const avgScores = [0.1966, 0.0196, -0.0338, 0.1673, 0.1108, 0.1797, 0.1852];
-    const labelCounts = {"Bearish": [0, 1, 0, 0, 0, 0, 0], "Bullish": [3, 1, 0, 2, 4, 3, 0], "Neutral": [3, 3, 2, 7, 14, 9, 1], "Somewhat-Bearish": [0, 0, 0, 2, 2, 1, 0], "Somewhat-Bullish": [2, 0, 0, 9, 6, 8, 5]};
+    const labels = ["2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04"];
+    const articleCounts = [5, 2, 20, 26, 21, 6, 2];
+    const avgScores = [0.0196, -0.0338, 0.1673, 0.1108, 0.1797, 0.1852, -0.0372];
+    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 1], "Bullish": [1, 0, 2, 4, 3, 0, 0], "Neutral": [3, 2, 7, 14, 9, 1, 0], "Somewhat-Bearish": [0, 0, 2, 2, 1, 0, 0], "Somewhat-Bullish": [0, 0, 9, 6, 8, 5, 1]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
