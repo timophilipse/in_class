@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-04T17:34:08.101244+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-04T23:56:08.734755+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">2</div>
+        <div class="metric">5</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -159,8 +159,16 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (1)</h3>
+<h3>Neutral (2)</h3>
 <ul>
+<li><a href='https://www.investing.com/news/stock-market-news/bilibili-stock-rises-amid-700m-convertible-notes-with-tencent-93CH-4889669' target='_blank' rel='noopener noreferrer'>Bilibili stock rises amid $700M convertible notes with Tencent</a> <span class='meta'>— Investing.com</span></li>
+<li><a href='https://www.barrons.com/articles/oura-ring-stock-ipo-revenue-91f3e7b9' target='_blank' rel='noopener noreferrer'>Oura Revenue Surges as Smart-Ring Company Looks to Go Public. Apple Is a Risk.</a> <span class='meta'>— Barron&#39;s</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (2)</h3>
+<ul>
+<li><a href='https://www.cnbc.com/2026/09/04/buy-the-dip-on-this-networking-stock-that-set-to-more-than-double-says-citi.html' target='_blank' rel='noopener noreferrer'>Buy the dip on this networking stock that set to more than double, says Citi</a> <span class='meta'>— CNBC</span></li>
 <li><a href='https://eu.dispatch.com/story/news/local/2026/09/04/moreno-confident-intel-plant-despite-delays-new-albany/91608798007/' target='_blank' rel='noopener noreferrer'>Intel &#39;100% committed&#39; to getting New Albany fab completed, Moreno says</a> <span class='meta'>— The Columbus Dispatch</span></li>
 </ul>
 </div>
@@ -173,9 +181,9 @@
 
   <script>
     const labels = ["2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04"];
-    const articleCounts = [5, 2, 20, 26, 21, 6, 2];
-    const avgScores = [0.0196, -0.0338, 0.1673, 0.1108, 0.1797, 0.1852, -0.0372];
-    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 1], "Bullish": [1, 0, 2, 4, 3, 0, 0], "Neutral": [3, 2, 7, 14, 9, 1, 0], "Somewhat-Bearish": [0, 0, 2, 2, 1, 0, 0], "Somewhat-Bullish": [0, 0, 9, 6, 8, 5, 1]};
+    const articleCounts = [5, 2, 20, 27, 21, 7, 5];
+    const avgScores = [0.0196, -0.0338, 0.1673, 0.1006, 0.1797, 0.1358, 0.0898];
+    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 1], "Bullish": [1, 0, 2, 4, 3, 0, 0], "Neutral": [3, 2, 7, 14, 9, 1, 2], "Somewhat-Bearish": [0, 0, 2, 3, 1, 1, 0], "Somewhat-Bullish": [0, 0, 9, 6, 8, 5, 2]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
