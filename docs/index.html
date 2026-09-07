@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-04T23:56:08.734755+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-07T14:57:03.688388+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">5</div>
+        <div class="metric">18</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -151,25 +151,19 @@
     </div>
 
     <div class="panel latest-section">
-      <h2>Latest day details (2026-09-04)</h2>
+      <h2>Latest day details (2026-09-06)</h2>
 <div class='sentiment-group'>
-<h3>Bearish (1)</h3>
+<h3>Neutral (1)</h3>
 <ul>
-<li><a href='https://news.bloomberglaw.com/ip-law/basf-units-bring-patent-suit-against-apple-over-face-id-tech' target='_blank' rel='noopener noreferrer'>BASF Units Bring Patent Suit Against Apple Over Face ID Tech</a> <span class='meta'>— Bloomberg Law News</span></li>
+<li><a href='https://finance.yahoo.com/media-advertising/articles/apple-aapl-raises-apple-tv-224834727.html' target='_blank' rel='noopener noreferrer'>Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.</a> <span class='meta'>— Yahoo Finance</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Somewhat-Bullish (3)</h3>
 <ul>
-<li><a href='https://www.investing.com/news/stock-market-news/bilibili-stock-rises-amid-700m-convertible-notes-with-tencent-93CH-4889669' target='_blank' rel='noopener noreferrer'>Bilibili stock rises amid $700M convertible notes with Tencent</a> <span class='meta'>— Investing.com</span></li>
-<li><a href='https://www.barrons.com/articles/oura-ring-stock-ipo-revenue-91f3e7b9' target='_blank' rel='noopener noreferrer'>Oura Revenue Surges as Smart-Ring Company Looks to Go Public. Apple Is a Risk.</a> <span class='meta'>— Barron&#39;s</span></li>
-</ul>
-</div>
-<div class='sentiment-group'>
-<h3>Somewhat-Bullish (2)</h3>
-<ul>
-<li><a href='https://www.cnbc.com/2026/09/04/buy-the-dip-on-this-networking-stock-that-set-to-more-than-double-says-citi.html' target='_blank' rel='noopener noreferrer'>Buy the dip on this networking stock that set to more than double, says Citi</a> <span class='meta'>— CNBC</span></li>
-<li><a href='https://eu.dispatch.com/story/news/local/2026/09/04/moreno-confident-intel-plant-despite-delays-new-albany/91608798007/' target='_blank' rel='noopener noreferrer'>Intel &#39;100% committed&#39; to getting New Albany fab completed, Moreno says</a> <span class='meta'>— The Columbus Dispatch</span></li>
+<li><a href='https://www.ndtv.com/world-news/what-to-expect-at-september-9-apple-event-foldable-iphone-iphone-18-pro-watch-12008801' target='_blank' rel='noopener noreferrer'>What To Expect At September 9 Apple Event: Foldable iPhone, iPhone 18 Pro</a> <span class='meta'>— NDTV</span></li>
+<li><a href='https://www.investopedia.com/what-to-expect-in-markets-this-week-fresh-inflation-data-apple-fall-launch-event-and-oracle-earnings-12100794' target='_blank' rel='noopener noreferrer'>What to Expect in Markets This Week: Fresh Inflation Data; Apple’s Fall Launch Event and Oracle Earnings</a> <span class='meta'>— Investopedia</span></li>
+<li><a href='https://sg.finance.yahoo.com/news/waffle-house-index-real-apple-184700795.html' target='_blank' rel='noopener noreferrer'>The &#39;Waffle House Index&#39; is real, and Apple is filming it</a> <span class='meta'>— Yahoo Finance Singapore</span></li>
 </ul>
 </div>
     </div>
@@ -180,10 +174,10 @@
   </div>
 
   <script>
-    const labels = ["2026-08-29", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04"];
-    const articleCounts = [5, 2, 20, 27, 21, 7, 5];
-    const avgScores = [0.0196, -0.0338, 0.1673, 0.1006, 0.1797, 0.1358, 0.0898];
-    const labelCounts = {"Bearish": [1, 0, 0, 0, 0, 0, 1], "Bullish": [1, 0, 2, 4, 3, 0, 0], "Neutral": [3, 2, 7, 14, 9, 1, 2], "Somewhat-Bearish": [0, 0, 2, 3, 1, 1, 0], "Somewhat-Bullish": [0, 0, 9, 6, 8, 5, 2]};
+    const labels = ["2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06"];
+    const articleCounts = [20, 27, 23, 7, 10, 7, 4];
+    const avgScores = [0.1673, 0.1006, 0.1796, 0.1358, 0.0905, 0.1497, 0.1758];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 1, 0, 0], "Bullish": [2, 4, 4, 0, 0, 1, 0], "Neutral": [7, 14, 10, 1, 3, 1, 1], "Somewhat-Bearish": [2, 3, 1, 1, 1, 2, 0], "Somewhat-Bullish": [9, 6, 8, 5, 5, 3, 3]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
