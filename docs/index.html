@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-08T16:33:13.094449+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-08T17:53:31.931230+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">4</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -159,6 +159,13 @@
 </ul>
 </div>
 <div class='sentiment-group'>
+<h3>Neutral (2)</h3>
+<ul>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/cramer-says-time-buy-dip-151012185.html' target='_blank' rel='noopener noreferrer'>Cramer Says It’s Time To Buy The Dip on JNJ</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://ca.investing.com/news/stock-market-news/constellation-brands-stock-hits-52week-low-at-1264-usd-93CH-4831177' target='_blank' rel='noopener noreferrer'>Constellation Brands stock hits 52-week low at 126.4 USD By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
 <h3>Somewhat-Bearish (1)</h3>
 <ul>
 <li><a href='https://www.engadget.com/2249559/carplay-android-auto-carplay-gm-breakup-one-exception-2027-cadillac-lyriq/' target='_blank' rel='noopener noreferrer'>GM&#39;s Breakup With CarPlay And Android Auto Has One Exception</a> <span class='meta'>— Engadget</span></li>
@@ -181,9 +188,9 @@
 
   <script>
     const labels = ["2026-09-02", "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08"];
-    const articleCounts = [23, 7, 10, 8, 4, 5, 5];
-    const avgScores = [0.1796, 0.1358, 0.0905, 0.1574, 0.1758, 0.2134, 0.2266];
-    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [4, 0, 0, 1, 0, 0, 1], "Neutral": [10, 1, 3, 1, 1, 2, 0], "Somewhat-Bearish": [1, 1, 1, 2, 0, 0, 1], "Somewhat-Bullish": [8, 5, 5, 4, 3, 3, 3]};
+    const articleCounts = [23, 7, 10, 8, 4, 5, 7];
+    const avgScores = [0.1796, 0.1358, 0.0905, 0.1574, 0.1758, 0.2134, 0.1648];
+    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [4, 0, 0, 1, 0, 0, 1], "Neutral": [10, 1, 3, 1, 1, 2, 2], "Somewhat-Bearish": [1, 1, 1, 2, 0, 0, 1], "Somewhat-Bullish": [8, 5, 5, 4, 3, 3, 3]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
