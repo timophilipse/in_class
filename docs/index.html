@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-08T17:53:31.931230+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-09T00:02:48.513533+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">2</div>
+        <div class="metric">3</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -153,14 +153,16 @@
     <div class="panel latest-section">
       <h2>Latest day details (2026-09-08)</h2>
 <div class='sentiment-group'>
-<h3>Bullish (1)</h3>
+<h3>Bullish (2)</h3>
 <ul>
 <li><a href='https://finance.yahoo.com/markets/stocks/articles/micron-vs-sandisk-1-artificial-113000528.html' target='_blank' rel='noopener noreferrer'>Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Winner Is Down 20% and Clearly the Superior Buy Today</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://www.inc.com/kit-eaton/the-biggest-iphone-release-since-2007-everything-leaked-ahead-of-apples-historic-event/91402221' target='_blank' rel='noopener noreferrer'>The Biggest iPhone Release Since 2007: Everything Leaked Ahead of Apple’s Historic Event</a> <span class='meta'>— Inc.com</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Neutral (3)</h3>
 <ul>
+<li><a href='https://www.investing.com/news/company-news/zim-stock-hits-52week-high-at-3021-usd-93CH-4891829' target='_blank' rel='noopener noreferrer'>ZIM stock hits 52-week high at 30.21 USD</a> <span class='meta'>— Investing.com</span></li>
 <li><a href='https://finance.yahoo.com/markets/stocks/articles/cramer-says-time-buy-dip-151012185.html' target='_blank' rel='noopener noreferrer'>Cramer Says It’s Time To Buy The Dip on JNJ</a> <span class='meta'>— Yahoo Finance</span></li>
 <li><a href='https://ca.investing.com/news/stock-market-news/constellation-brands-stock-hits-52week-low-at-1264-usd-93CH-4831177' target='_blank' rel='noopener noreferrer'>Constellation Brands stock hits 52-week low at 126.4 USD By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
 </ul>
@@ -172,11 +174,12 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (3)</h3>
+<h3>Somewhat-Bullish (4)</h3>
 <ul>
 <li><a href='https://au.finance.yahoo.com/news/tech-bytes-apple-prepares-us-013900628.html' target='_blank' rel='noopener noreferrer'>Tech Bytes: Apple prepares US$2,000 foldable iPhone gamble as premium push gathers pace</a> <span class='meta'>— Yahoo Finance Australia</span></li>
 <li><a href='https://www.usatoday.com/story/tech/2026/09/08/apple-big-event-foldable-iphone/91562867007/' target='_blank' rel='noopener noreferrer'>Here&#39;s what to expect at Apple&#39;s big event on Wednesday</a> <span class='meta'>— USA Today</span></li>
 <li><a href='https://www.investing.com/news/analyst-ratings/hsbc-reiterates-buy-rating-on-apple-stock-keeps-366-price-target-93CH-4891684' target='_blank' rel='noopener noreferrer'>HSBC reiterates Buy rating on Apple stock, keeps $366 price target</a> <span class='meta'>— Investing.com</span></li>
+<li><a href='https://www.usatoday.com/story/tech/2026/09/08/apple-big-event-time-watch/91567245007/' target='_blank' rel='noopener noreferrer'>Apple&#39;s big event is tomorrow. See time, how to watch</a> <span class='meta'>— USA Today</span></li>
 </ul>
 </div>
     </div>
@@ -188,9 +191,9 @@
 
   <script>
     const labels = ["2026-09-02", "2026-09-03", "2026-09-04", "2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08"];
-    const articleCounts = [23, 7, 10, 8, 4, 5, 7];
-    const avgScores = [0.1796, 0.1358, 0.0905, 0.1574, 0.1758, 0.2134, 0.1648];
-    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [4, 0, 0, 1, 0, 0, 1], "Neutral": [10, 1, 3, 1, 1, 2, 2], "Somewhat-Bearish": [1, 1, 1, 2, 0, 0, 1], "Somewhat-Bullish": [8, 5, 5, 4, 3, 3, 3]};
+    const articleCounts = [23, 7, 10, 8, 4, 5, 10];
+    const avgScores = [0.1796, 0.1358, 0.0905, 0.1574, 0.1758, 0.2134, 0.1974];
+    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [4, 0, 0, 1, 0, 0, 2], "Neutral": [10, 1, 3, 1, 1, 2, 3], "Somewhat-Bearish": [1, 1, 1, 2, 0, 0, 1], "Somewhat-Bullish": [8, 5, 5, 4, 3, 3, 4]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
