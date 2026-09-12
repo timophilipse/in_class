@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-11T17:43:35.349499+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-12T00:07:55.912940+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">2</div>
+        <div class="metric">5</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -161,17 +161,21 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Neutral (5)</h3>
 <ul>
 <li><a href='https://www.investing.com/news/insider-trading-news/ebay-ceo-jamie-iannone-sells-229-million-in-company-stock-93CH-4897128' target='_blank' rel='noopener noreferrer'>eBay CEO Jamie Iannone sells $2.29 million in company stock</a> <span class='meta'>— Investing.com</span></li>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/bofa-strategists-warn-stock-volatility-084500523.html' target='_blank' rel='noopener noreferrer'>BofA Strategists Warn of Stock Volatility as Outflows Hit US</a> <span class='meta'>— Yahoo Finance</span></li>
 <li><a href='https://finance.yahoo.com/technology/ai/articles/adobe-forecast-misses-estimates-renewing-201136315.html' target='_blank' rel='noopener noreferrer'>Adobe Forecast Misses Estimates, Renewing Fears About AI Impact</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://www.benzinga.com/markets/prediction-markets/26/09/61740701/nvidia-circular-financing-jensen-huang' target='_blank' rel='noopener noreferrer'>Jensen Huang Mocks Nvidia ‘Circular Financing’ Fears: ‘If That Is, Let’s Do More of That’</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://www.investing.com/news/stock-market-news/kalshi-stock-futures-plan-targets-tesla-and-apple-shares--bloomberg-93CH-4898406' target='_blank' rel='noopener noreferrer'>Kalshi stock futures plan targets Tesla and Apple shares - Bloomberg</a> <span class='meta'>— Investing.com</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (2)</h3>
+<h3>Somewhat-Bullish (3)</h3>
 <ul>
 <li><a href='https://www.investing.com/news/insider-trading-news/apple-svp-jennifer-newstead-sells-456176-of-company-stock-93CH-4897097' target='_blank' rel='noopener noreferrer'>Apple SVP Jennifer Newstead sells $456,176 of company stock</a> <span class='meta'>— Investing.com</span></li>
 <li><a href='https://www.theverge.com/tech/993892/apples-next-computer-smart-home-hub-airport-router' target='_blank' rel='noopener noreferrer'>Why Apple’s next computer should be for the smart home</a> <span class='meta'>— The Verge</span></li>
+<li><a href='https://www.investing.com/news/company-news/best-buy-stock-hits-52week-high-at-9127-usd-93CH-4898361' target='_blank' rel='noopener noreferrer'>Best Buy stock hits 52-week high at 91.27 USD</a> <span class='meta'>— Investing.com</span></li>
 </ul>
 </div>
     </div>
@@ -183,9 +187,9 @@
 
   <script>
     const labels = ["2026-09-05", "2026-09-06", "2026-09-07", "2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11"];
-    const articleCounts = [8, 4, 7, 16, 27, 28, 7];
-    const avgScores = [0.1574, 0.1758, 0.1999, 0.189, 0.1686, 0.1306, 0.2372];
-    const labelCounts = {"Bullish": [1, 0, 0, 3, 1, 3, 3], "Neutral": [1, 1, 3, 5, 11, 16, 2], "Somewhat-Bearish": [2, 0, 0, 1, 1, 2, 0], "Somewhat-Bullish": [4, 3, 4, 7, 14, 7, 2]};
+    const articleCounts = [8, 4, 7, 16, 27, 29, 11];
+    const avgScores = [0.1574, 0.1758, 0.1999, 0.189, 0.1686, 0.1349, 0.2034];
+    const labelCounts = {"Bullish": [1, 0, 0, 3, 1, 3, 3], "Neutral": [1, 1, 3, 5, 11, 16, 5], "Somewhat-Bearish": [2, 0, 0, 1, 1, 2, 0], "Somewhat-Bullish": [4, 3, 4, 7, 14, 8, 3]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
