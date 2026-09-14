@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-14T15:48:58.910324+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-14T18:03:16.488205+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">24</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -165,10 +165,12 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Neutral (4)</h3>
 <ul>
 <li><a href='https://intellectia.ai/news/stock/corning-launches-up-to-2-billion-atthemarket-program' target='_blank' rel='noopener noreferrer'>Corning Launches Up to $2 Billion At-the-Market Program</a> <span class='meta'>— Intellectia AI</span></li>
 <li><a href='https://wtaq.com/2026/09/14/musks-x-corp-and-spacexai-resolve-antitrust-lawsuit-against-apple/' target='_blank' rel='noopener noreferrer'>Musk’s X Corp and SpaceXAI resolve antitrust lawsuit against Apple</a> <span class='meta'>— WTAQ</span></li>
+<li><a href='https://www.investing.com/news/stock-market-news/musks-xai-and-x-corp-settle-antitrust-case-against-apple-93CH-4900026' target='_blank' rel='noopener noreferrer'>Musk’s xAI and X Corp. settle antitrust case against Apple</a> <span class='meta'>— Investing.com</span></li>
+<li><a href='https://ca.investing.com/news/stock-market-news/form-8k-curtisswright-corp-for-14-september-93CH-4838547' target='_blank' rel='noopener noreferrer'>Form 8K Curtiss-Wright Corp For: 14 September By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -193,9 +195,9 @@
 
   <script>
     const labels = ["2026-09-08", "2026-09-09", "2026-09-10", "2026-09-11", "2026-09-12", "2026-09-13", "2026-09-14"];
-    const articleCounts = [16, 27, 29, 18, 7, 3, 7];
-    const avgScores = [0.189, 0.1686, 0.1349, 0.2013, 0.1721, 0.1244, 0.0089];
-    const labelCounts = {"Bearish": [0, 0, 0, 0, 0, 0, 1], "Bullish": [3, 1, 3, 3, 0, 0, 1], "Neutral": [5, 11, 16, 7, 2, 2, 2], "Somewhat-Bearish": [1, 1, 2, 0, 0, 0, 1], "Somewhat-Bullish": [7, 14, 8, 8, 5, 1, 2]};
+    const articleCounts = [16, 27, 29, 18, 7, 3, 9];
+    const avgScores = [0.189, 0.1686, 0.1349, 0.2013, 0.1721, 0.1244, -0.01];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 0, 0, 1], "Bullish": [3, 1, 3, 3, 0, 0, 1], "Neutral": [5, 11, 16, 7, 2, 2, 4], "Somewhat-Bearish": [1, 1, 2, 0, 0, 0, 1], "Somewhat-Bullish": [7, 14, 8, 8, 5, 1, 2]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
