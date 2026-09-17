@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-16T18:08:56.233294+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-17T00:18:47.661971+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">0</div>
+        <div class="metric">2</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -159,10 +159,11 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Neutral (2)</h3>
+<h3>Neutral (3)</h3>
 <ul>
 <li><a href='https://ca.investing.com/news/stock-market-news/form-8k-hive-digital-technologies-ltd-for-16-september-93CH-4841398' target='_blank' rel='noopener noreferrer'>Form 8K HIVE Digital Technologies Ltd For: 16 September By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
 <li><a href='https://kalkinemedia.com/us/stocks/dividend/why-traders-are-watching-colgate-palmolive-in-dividend-stocks-today' target='_blank' rel='noopener noreferrer'>Why Traders Are Watching Colgate-Palmolive in dividend stocks Today?</a> <span class='meta'>— Kalkine Media</span></li>
+<li><a href='https://www.marketbeat.com/articles/movados-turnaround-gains-momentum/' target='_blank' rel='noopener noreferrer'>Movado’s Turnaround Gains Momentum</a> <span class='meta'>— MarketBeat</span></li>
 </ul>
 </div>
 <div class='sentiment-group'>
@@ -181,9 +182,9 @@
 
   <script>
     const labels = ["2026-09-10", "2026-09-11", "2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15", "2026-09-16"];
-    const articleCounts = [29, 20, 8, 4, 18, 14, 5];
-    const avgScores = [0.1349, 0.2025, 0.1202, 0.1629, 0.0101, 0.1185, 0.1699];
-    const labelCounts = {"Bearish": [0, 0, 0, 0, 2, 0, 0], "Bullish": [3, 3, 0, 0, 1, 3, 1], "Neutral": [16, 7, 2, 2, 7, 4, 2], "Somewhat-Bearish": [2, 0, 1, 0, 2, 3, 0], "Somewhat-Bullish": [8, 10, 5, 2, 6, 4, 2]};
+    const articleCounts = [29, 20, 8, 4, 19, 14, 6];
+    const avgScores = [0.1349, 0.2025, 0.1202, 0.1629, 0.0301, 0.1185, 0.1563];
+    const labelCounts = {"Bearish": [0, 0, 0, 0, 2, 0, 0], "Bullish": [3, 3, 0, 0, 2, 3, 1], "Neutral": [16, 7, 2, 2, 7, 4, 3], "Somewhat-Bearish": [2, 0, 1, 0, 2, 3, 0], "Somewhat-Bullish": [8, 10, 5, 2, 6, 4, 2]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
