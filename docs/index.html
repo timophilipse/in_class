@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-18T17:38:46.196979+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-19T00:09:45.996362+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">2</div>
+        <div class="metric">4</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -165,11 +165,20 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (3)</h3>
+<h3>Neutral (2)</h3>
+<ul>
+<li><a href='https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61865873/apple-to-rally-around-13-here-are-10-top-analyst-forecasts-for-friday' target='_blank' rel='noopener noreferrer'>Apple To Rally Around 13%? Here Are 10 Top Analyst Forecasts For Friday</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://ca.investing.com/news/stock-market-news/form-8k-ameren-corp-for-18-september-93CH-4845314' target='_blank' rel='noopener noreferrer'>Form 8K Ameren Corp For: 18 September By Investing.com</a> <span class='meta'>— Investing.com Canada</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
+<h3>Somewhat-Bullish (5)</h3>
 <ul>
 <li><a href='https://scanx.trade/stock-market-news/companies/enovix-shares-slide-15-72-3-69-ceo-raj-talluri-steps-down/48529934' target='_blank' rel='noopener noreferrer'>Enovix reaffirms Q3 guidance, details $552M balance sheet amid CEO transition</a> <span class='meta'>— scanx.trade</span></li>
 <li><a href='https://www.marketbeat.com/instant-alerts/filing-boston-trust-walden-corp-has-25265-million-stake-in-nvidia-corporation-nvda-2026-09-18/' target='_blank' rel='noopener noreferrer'>Boston Trust Walden Corp Has $252.65 Million Stake in NVIDIA Corporation $NVDA</a> <span class='meta'>— MarketBeat</span></li>
 <li><a href='https://www.benzinga.com/government/26/09/61871668/recent-report-shows-sen-alan-armstrong-bought-65k-worth-williams-companies-stock' target='_blank' rel='noopener noreferrer'>Recent Report Shows That Sen. Alan Armstrong Bought Up to $65K Worth of Williams Companies Stock</a> <span class='meta'>— Benzinga</span></li>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/intel-vs-sk-hynix-chip-191000596.html' target='_blank' rel='noopener noreferrer'>Intel vs. SK Hynix: Which Chip Stock Is Worth Chasing After This Week&#39;s Surge?</a> <span class='meta'>— Yahoo Finance</span></li>
+<li><a href='https://www.cnbc.com/video/2026/09/18/morgan-stanleys-woodring-on-apple-early-demand-seems-fine-supply-is-better-lead-times-are-flat.html' target='_blank' rel='noopener noreferrer'>Morgan Stanley’s Woodring on Apple: Early demand seems fine, supply is better, lead times are flat</a> <span class='meta'>— CNBC</span></li>
 </ul>
 </div>
     </div>
@@ -181,9 +190,9 @@
 
   <script>
     const labels = ["2026-09-12", "2026-09-13", "2026-09-14", "2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18"];
-    const articleCounts = [8, 4, 19, 15, 11, 8, 5];
-    const avgScores = [0.1202, 0.1629, 0.0301, 0.1425, 0.1262, 0.1394, 0.1536];
-    const labelCounts = {"Bearish": [0, 0, 2, 0, 0, 0, 1], "Bullish": [0, 0, 2, 4, 1, 2, 1], "Neutral": [2, 2, 7, 4, 7, 2, 0], "Somewhat-Bearish": [1, 0, 2, 3, 0, 1, 0], "Somewhat-Bullish": [5, 2, 6, 4, 3, 3, 3]};
+    const articleCounts = [8, 4, 19, 15, 11, 8, 9];
+    const avgScores = [0.1202, 0.1629, 0.0301, 0.1425, 0.1262, 0.1394, 0.1337];
+    const labelCounts = {"Bearish": [0, 0, 2, 0, 0, 0, 1], "Bullish": [0, 0, 2, 4, 1, 2, 1], "Neutral": [2, 2, 7, 4, 7, 2, 2], "Somewhat-Bearish": [1, 0, 2, 3, 0, 1, 0], "Somewhat-Bullish": [5, 2, 6, 4, 3, 3, 5]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
