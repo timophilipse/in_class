@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-09-22T13:58:56.606257+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-09-22T16:49:21.166300+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">3</div>
+        <div class="metric">1</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -153,6 +153,12 @@
     <div class="panel latest-section">
       <h2>Latest day details (2026-09-22)</h2>
 <div class='sentiment-group'>
+<h3>Bullish (1)</h3>
+<ul>
+<li><a href='https://www.investing.com/news/company-news/apple-stock-hits-alltime-high-at-34494-usd-93CH-4911037' target='_blank' rel='noopener noreferrer'>Apple stock hits all-time high at 344.94 USD</a> <span class='meta'>— Investing.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
 <h3>Neutral (1)</h3>
 <ul>
 <li><a href='https://finance.yahoo.com/technology/ai/articles/apple-may-return-servers-own-124420628.html' target='_blank' rel='noopener noreferrer'>Apple May Return to Servers With Its Own AI Chips. Nvidia Could Still Get Paid</a> <span class='meta'>— Yahoo Finance</span></li>
@@ -174,9 +180,9 @@
 
   <script>
     const labels = ["2026-09-16", "2026-09-17", "2026-09-18", "2026-09-19", "2026-09-20", "2026-09-21", "2026-09-22"];
-    const articleCounts = [11, 8, 12, 4, 3, 10, 3];
-    const avgScores = [0.1262, 0.1394, 0.1221, 0.238, -0.0508, 0.0937, 0.1772];
-    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [1, 2, 1, 1, 0, 1, 0], "Neutral": [7, 2, 4, 2, 0, 4, 1], "Somewhat-Bearish": [0, 1, 0, 0, 2, 2, 0], "Somewhat-Bullish": [3, 3, 6, 1, 1, 3, 2]};
+    const articleCounts = [11, 8, 12, 4, 3, 10, 4];
+    const avgScores = [0.1262, 0.1394, 0.1221, 0.238, -0.0508, 0.0937, 0.2298];
+    const labelCounts = {"Bearish": [0, 0, 1, 0, 0, 0, 0], "Bullish": [1, 2, 1, 1, 0, 1, 1], "Neutral": [7, 2, 4, 2, 0, 4, 1], "Somewhat-Bearish": [0, 1, 0, 0, 2, 2, 0], "Somewhat-Bullish": [3, 3, 6, 1, 1, 3, 2]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
