@@ -113,7 +113,7 @@
     <div class="cards">
       <div class="card">
         <h2>Last pipeline update</h2>
-        <div class="metric" style="font-size:1.05rem;">2026-10-02T15:37:28.786966+00:00</div>
+        <div class="metric" style="font-size:1.05rem;">2026-10-02T17:49:28.203075+00:00</div>
       </div>
       <div class="card">
         <h2>Articles fetched</h2>
@@ -121,7 +121,7 @@
       </div>
       <div class="card">
         <h2>New SQL rows</h2>
-        <div class="metric">10</div>
+        <div class="metric">6</div>
       </div>
       <div class="card">
         <h2>New vectors</h2>
@@ -153,6 +153,13 @@
     <div class="panel latest-section">
       <h2>Latest day details (2026-10-02)</h2>
 <div class='sentiment-group'>
+<h3>Bullish (2)</h3>
+<ul>
+<li><a href='https://www.marketbeat.com/instant-alerts/consensus-mplx-lp-nyse-mplx-stock-has-consensus-target-price-of-6380-2026-10-02/' target='_blank' rel='noopener noreferrer'>Mplx Lp (NYSE:MPLX) Stock Has Consensus Target Price of $63.80</a> <span class='meta'>— MarketBeat</span></li>
+<li><a href='https://www.tikr.com/blog/morgan-stanley-strategist-sees-5-or-10-market-drawdown-potential-as-five-megacaps-carry-the-sp-500' target='_blank' rel='noopener noreferrer'>Morgan Stanley Strategist Sees “5 or 10%” Market Drawdown Potential as Five Megacaps Carry the S&amp;P 500</a> <span class='meta'>— TIKR.com</span></li>
+</ul>
+</div>
+<div class='sentiment-group'>
 <h3>Neutral (3)</h3>
 <ul>
 <li><a href='https://ca.investing.com/news/stock-market-news/form-4-gogo-inc-for-1-october-93CH-4863180' target='_blank' rel='noopener noreferrer'>Form 4 Gogo Inc For: 1 October By Investing.com</a> <span class='meta'>— Investing.com</span></li>
@@ -167,11 +174,14 @@
 </ul>
 </div>
 <div class='sentiment-group'>
-<h3>Somewhat-Bullish (3)</h3>
+<h3>Somewhat-Bullish (6)</h3>
 <ul>
 <li><a href='https://ca.finance.yahoo.com/quote/MELI.BA/' target='_blank' rel='noopener noreferrer'>MercadoLibre, Inc. (MELI.BA) Stock Price, News, Quote &amp; History</a> <span class='meta'>— Yahoo! Finance Canada</span></li>
 <li><a href='https://www.tradingkey.com/markets/stocks/meta/analysis' target='_blank' rel='noopener noreferrer'>Meta Platforms Inc (META) Stock Analysis &amp; Forecast</a> <span class='meta'>— TradingKey</span></li>
+<li><a href='https://bhamnow.com/2026/10/01/the-summit-sold-for-508m-what-it-means-for-retail-in-birmingham/' target='_blank' rel='noopener noreferrer'>The Summit sells for $508M to out of state firm</a> <span class='meta'>— Bham Now</span></li>
+<li><a href='https://www.hillwood.com/newsroom/news-articles/how-mp-materials-picked-fort-worth-to-restart-us-rare-earth-supply-chain/' target='_blank' rel='noopener noreferrer'>How MP Materials picked Fort Worth to restart US rare earth supply chain</a> <span class='meta'>— Hillwood, a Perot Company.</span></li>
 <li><a href='https://www.marketbeat.com/instant-alerts/consensus-fastenal-company-nasdaq-fast-stock-has-average-price-target-of-4950-2026-10-02/' target='_blank' rel='noopener noreferrer'>Fastenal Company (NASDAQ:FAST) Stock Has Average Price Target of $49.50</a> <span class='meta'>— MarketBeat</span></li>
+<li><a href='https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-strategist-sees-5-150329341.html' target='_blank' rel='noopener noreferrer'>Morgan Stanley Strategist Sees “5 or 10%” Market Drawdown Potential as Five Megacaps Carry the S&amp;P 500</a> <span class='meta'>— Yahoo Finance</span></li>
 </ul>
 </div>
     </div>
@@ -183,9 +193,9 @@
 
   <script>
     const labels = ["2026-09-26", "2026-09-27", "2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02"];
-    const articleCounts = [7, 19, 44, 52, 42, 34, 7];
-    const avgScores = [-0.1049, 0.0886, 0.0012, 0.1243, 0.1053, 0.1268, 0.0427];
-    const labelCounts = {"Bearish": [2, 1, 2, 0, 0, 0, 0], "Bullish": [0, 0, 1, 2, 4, 3, 0], "Neutral": [1, 8, 19, 27, 21, 20, 3], "Somewhat-Bearish": [2, 2, 10, 1, 4, 1, 1], "Somewhat-Bullish": [2, 8, 12, 22, 13, 10, 3]};
+    const articleCounts = [7, 19, 44, 52, 42, 35, 12];
+    const avgScores = [-0.1049, 0.0886, 0.0012, 0.1243, 0.1053, 0.1298, 0.1427];
+    const labelCounts = {"Bearish": [2, 1, 2, 0, 0, 0, 0], "Bullish": [0, 0, 1, 2, 4, 3, 2], "Neutral": [1, 8, 19, 27, 21, 20, 3], "Somewhat-Bearish": [2, 2, 10, 1, 4, 1, 1], "Somewhat-Bullish": [2, 8, 12, 22, 13, 11, 6]};
 
     new Chart(document.getElementById('articlesChart'), {
       type: 'bar',
